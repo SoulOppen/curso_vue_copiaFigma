@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>hotstPage</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">HostPage</div>
+      <nav class="nav">
+        <a class="nav__item" href="">Home</a>
+        <a class="nav__item" href="">About Us</a>
+        <a class="nav__item" href="">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="message">
+        <h1 class="message__title">HostelsPage</h1>
+        <p class="message__text">
+          Your site for booking hostels around the world
+        </p>
+      </section>
+      <form class="form">
+        <div class="form__mainForm">
+          <div class="form__question question">
+            <p class="form__text">Where do you want to go?</p>
+            <input type="text" class="form__input" />
+          </div>
+          <div class="form__question">
+            <p class="form__text">When?</p>
+            <ul class="form__list">
+              <li class="form__listItem">
+                <label from="from" class="form__label">From:</label>
+                <input id="from" type="text" class="form__input" />
+              </li>
+              <li class="form__listItem">
+                <label from="to" class="form__label">To:</label>
+                <input id="to" type="text" class="form__input" />
+              </li>
+            </ul>
+          </div>
+          <div class="form__question">
+            <p class="form__text">How many people?</p>
+            <div class="form__div">
+              <input
+                id="adults"
+                type="number"
+                class="form_input form__input--small"
+              />
+              <label from="adults" class="form__label">Adults</label>
+              <input
+                id="children"
+                type="number"
+                class="question_input form__input--small"
+              />
+              <label from="children" class="form__label">Children</label>
+            </div>
+          </div>
+        </div>
+        <div class="form__footer">
+          <button type="submit" class="form__button">Search</button>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer__div">All rights reserved</div>
+      <div class="footer__div">
+        <a
+          class="footer__anchor"
+          href="https://www.instgram.com"
+          target="_blank"
+          >Instagram</a
+        >
+        <a
+          class="footer__anchor"
+          href="https://www.facebook.com"
+          target="_blank"
+          >Facebook</a
+        >
+        <a class="footer__anchor" href="https://www.x.com" target="_blank">X</a>
+      </div>
+    </footer>
+  </body>
+</html>

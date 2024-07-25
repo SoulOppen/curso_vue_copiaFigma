@@ -1,0 +1,117 @@
+:root {
+  --fondo-nav-footer: #bde5f1;
+  --fondo-section-message: #526f71;
+  --fondo-button: #52728e;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ruda", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+  background-image: url("../img/playa.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: var(--fondo-nav-footer);
+  font-size: 2rem;
+}
+.header__logo {
+  font-weight: bolder;
+  margin: 1vw;
+}
+.nav__item {
+  text-decoration: none;
+  color: black;
+  margin: 1vw;
+}
+.message {
+  color: white;
+  background-color: var(--fondo-section-message);
+  opacity: 90%;
+  margin: 1rem auto 0.75rem;
+  width: 33.33vw;
+  padding: 0.5vw 1vw 0.75vw;
+}
+.message__title {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+.message__text {
+  font-size: 1.875rem;
+}
+.form {
+  width: 55vw;
+  font-size: 1.25rem;
+  margin: auto;
+
+  font-weight: bold;
+}
+.form__mainForm {
+  background-color: white;
+  opacity: 75%;
+  padding: 1rem;
+}
+
+.form__footer {
+  margin: 0.5rem 0;
+}
+.form__question {
+  display: flex;
+}
+.form__text {
+  margin-right: 3vw;
+}
+
+.form__list {
+  list-style: none;
+}
+.form__label {
+  display: inline-block;
+  width: 5vw;
+}
+
+.form__input--small {
+  margin: 0 1vw;
+  width: 5vw;
+}
+.form__button {
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: var(--fondo-button);
+  font-size: 1.5rem;
+  padding: 1vh 3vw;
+  width: fit-content;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--fondo-nav-footer);
+}
+.footer__div {
+  font-size: 1.5rem;
+  margin: 1vw;
+}
+.footer__anchor {
+  margin: 0.5vw;
+  text-decoration: none;
+  color: black;
+  opacity: 68%;
+}
